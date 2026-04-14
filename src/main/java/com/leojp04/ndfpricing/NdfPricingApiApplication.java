@@ -1,13 +1,13 @@
-package com.leojp04.derivatives.calculator;
+package com.leojp04.ndfpricing;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DerivativesCalculatorApplication {
+public class NdfPricingApiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DerivativesCalculatorApplication.class, args);
+        SpringApplication.run(NdfPricingApiApplication.class, args);
     }
 
 }

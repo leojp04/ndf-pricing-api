@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.leojp04</groupId>
-    <artifactId>derivatives-calculator</artifactId>
+    <artifactId>ndf-pricing-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>derivatives-calculator</name>
-    <description>derivatives-calculator</description>
+    <name>ndf-pricing-api</name>
+    <description>REST API for pricing NDF (Non-Deliverable Forward) contracts.</description>
     <url/>
     <licenses>
         <license/>
