@@ -1,6 +1,6 @@
 package com.leojp04.ndfpricing.enums;
 
-public enum OperationType {
+public enum Side {
 
     BUY,
     SELL
