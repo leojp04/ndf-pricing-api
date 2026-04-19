@@ -1,11 +1,11 @@
 package com.leojp04.ndfpricing.dto;
 
 import com.leojp04.ndfpricing.enums.Side;
-import jakarta.validation.constraints.NotNull;
+
 
 import java.math.BigDecimal;
 
-public class NdfRequestDTO {
+public class NDFRequestDTO {
 
     private BigDecimal spotRate;
     private BigDecimal brlRate;
@@ -16,10 +16,10 @@ public class NdfRequestDTO {
     private BigDecimal spread;
     private BigDecimal notional;
 
-    public NdfRequestDTO() {
+    public NDFRequestDTO() {
     }
 
-    public NdfRequestDTO(BigDecimal spotRate, BigDecimal brlRate, BigDecimal fxCoupon, int businessDays, int calendarDays, Side side, BigDecimal spread, BigDecimal notional) {
+    public NDFRequestDTO(BigDecimal spotRate, BigDecimal brlRate, BigDecimal fxCoupon, int businessDays, int calendarDays, Side side, BigDecimal spread, BigDecimal notional) {
         this.spotRate = spotRate;
         this.brlRate = brlRate;
         this.fxCoupon = fxCoupon;
